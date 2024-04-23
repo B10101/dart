@@ -88,4 +88,17 @@ void main() {
   print("Enter your name again");
   String? name2 = stdin.readLineSync();
   print("your name is $name2");
+
+  //Type casting
+
+  var one = '1';
+  var two = 2;
+  var three = '3.1';
+  // integer casting
+  print(two + int.parse(one));
+  // double casting
+  print(two + double.parse(three));
+
+  // string casting
+  print(two.toString());
 }

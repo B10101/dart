@@ -31,3 +31,10 @@ data types in dart:
 6. list
 7. map
 
+## for type caseting
+1. to integer
+    use int.parse(value)
+2. for double
+    use double.parse(value)
+3. For strings, use toStrings method
+    value.toString()
