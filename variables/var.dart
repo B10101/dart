@@ -59,4 +59,23 @@ void main() {
   // removing a specific index
   list2.removeAt(2);
   print(list2);
+  print("");
+
+// maps (dictionaries in python)
+  var map1 = {"number": 12, "name": 'bett', "IsAdult": true};
+  print(map1);
+  print(map1.keys);
+  print(map1.values);
+
+  // add sth and add many things
+  map1["name2"] = "kevin";
+  map1.addAll({"name3": "alfred", "age": "156"});
+  print(map1);
+
+  // remove sth and everything
+  map1.remove("name2");
+  print(map1);
+
+  map1.clear();
+  print(map1);
 }
