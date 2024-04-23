@@ -38,3 +38,5 @@ data types in dart:
     use double.parse(value)
 3. For strings, use toStrings method
     value.toString()
+when type casting user input, remember the null type. So when casting to integer or double:
+int.parse(value ?? 'default number')

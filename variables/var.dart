@@ -101,4 +101,9 @@ void main() {
 
   // string casting
   print(two.toString());
+
+  //user input type casting
+  var ten = stdin.readLineSync();
+  var ell = int.parse(ten ?? '0') + 10;
+  print("10 + $ten = $ell");
 }
