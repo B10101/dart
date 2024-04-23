@@ -1,3 +1,5 @@
+import 'dart:io';
+
 void main() {
   // strings
   String her = "Mine";
@@ -78,4 +80,12 @@ void main() {
 
   map1.clear();
   print(map1);
+
+  //getting user input
+  print("Enter your name");
+  var name = stdin.readLineSync();
+  print("your name is $name");
+  print("Enter your name again");
+  String? name2 = stdin.readLineSync();
+  print("your name is $name2");
 }
